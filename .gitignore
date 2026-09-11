@@ -1,0 +1,51 @@
+# ---------- Build output ----------
+target/
+build/
+out/
+bin/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---------- Maven ----------
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ---------- IDE ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+nbproject/private/
+*.swp
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Logs & runtime ----------
+*.log
+logs/
+*.pid
+
+# ---------- Local data / secrets ----------
+# Never commit real credentials or local-only config overrides.
+*.local
+.env
+*.env.local
+application-local.yml
+application-local.yaml
+application-local.properties
+*.jks
+*.p12
+data/
