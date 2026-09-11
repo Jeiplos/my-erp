@@ -35,6 +35,7 @@
 | [限界上下文 (Bounded Context)](bounded-context.md) | 同一个词在不同业务范围内含义不同，就该划成不同上下文 |
 | [防腐层 (Anti-Corruption Layer)](anti-corruption-layer.md) | 隔离外部系统的模型，不让外部概念污染自己的领域 |
 | [DTO](dto.md) | 专门用于跨层/跨进程传输数据、只有字段没有行为的对象 |
+| [数据流向 (Data Flow)](data-flow.md) | 数据从哪来、经过谁、到哪去，以及跨边界时走哪种通信方式 |
 
 ### 三、项目与工程
 
@@ -44,6 +45,12 @@
 | [MVP](mvp.md) | 最小可行产品：只做能跑通核心闭环的最小功能集 |
 | [中间件 (Middleware)](middleware.md) | 缓存、消息队列、注册中心等位于应用与系统之间的基础组件 |
 | [验收标准 (Acceptance Criteria)](acceptance-criteria.md) | 判定「这个模块算做完了」的可检验条件 |
+
+### 附：配套图示
+
+| 文档 | 一句话说明 |
+| --- | --- |
+| [跨境电商 ERP 内外数据流向图](data-flow-map.md) | 5 个服务的内外数据流向全景、五条端到端链路、Dubbo 调用矩阵 |
 
 ## 建议阅读顺序
 
