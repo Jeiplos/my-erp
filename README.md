@@ -32,6 +32,7 @@ Maven 工程（`pom.xml`）尚未创建，会在下一步加入。
 ```
 my-erp/
 ├── docs/                     设计文档：领域模型、模块划分、API 约定
+│   └── glossary/             词汇表：解释文档与讨论中出现的专业术语
 ├── src/
 │   ├── main/
 │   │   ├── java/             业务源码（按 com.example.erp.* 分层）
@@ -57,6 +58,15 @@ com.example.erp
 
 > 说明：`.gitkeep` 是占位文件，Git 不跟踪空目录，用它把规划好的目录结构固化进版本库。
 > 对应目录出现真实文件后即可删除。
+
+## 术语约定
+
+文档与讨论中会用到一些专业词汇（如「聚合」「业务不变式」「限界上下文」「MVP」）。
+它们集中在 [docs/glossary/](docs/glossary/README.md) 里逐条解释，
+每个词条都包含：一句话定义、具体例子、在本项目里怎么用、常见误解。
+
+- 不想被打断思路时：先跳过，遇到看不懂的设计再回来查。
+- 想系统了解时：从 [docs/glossary/README.md](docs/glossary/README.md) 末尾的「建议阅读顺序」入手。
 
 ## 计划实现的业务模块
 
@@ -87,7 +97,9 @@ mvn spring-boot:run   # 启动服务
 ## 进度
 
 - [x] 初始化 Git 仓库与目录骨架
-- [ ] 引入 Maven 工程与 Spring Boot 启动类
+- [x] 创建 GitHub 远端仓库并推送 `main` 分支
+- [x] 补充 docs/glossary 词汇表（19 个词条）
+- [ ] 引入 Maven 工程与 Spring Boot 启动类（由本人完成）
 - [ ] 主数据模块
 - [ ] 库存模块
 - [ ] 销售模块
