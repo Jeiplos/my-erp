@@ -47,11 +47,12 @@
 | [中间件 (Middleware)](middleware.md) | 缓存、消息队列、注册中心等位于应用与系统之间的基础组件 |
 | [验收标准 (Acceptance Criteria)](acceptance-criteria.md) | 判定「这个模块算做完了」的可检验条件 |
 
-### 附：配套图示
+### 附：配套图示与业务说明
 
 | 文档 | 一句话说明 |
 | --- | --- |
 | [跨境电商 ERP 内外数据流向图](data-flow-map.md) | 5 个服务的内外数据流向全景、五条端到端链路、Dubbo 调用矩阵 |
+| [ERP MVP 流程说明](mvp-business-overview.md)| 基于一个主流程，讲解流程中的各个环节 |
 
 ## 建议阅读顺序
 
