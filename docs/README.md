@@ -13,7 +13,7 @@
 
 ## 词汇表
 
-[docs/glossary/](glossary/README.md) 收录本项目会用到的专业术语，共 20 个词条，
+[docs/glossary/](glossary/README.md) 收录本项目会用到的专业术语，共 21 个词条，
 按「领域建模 / 架构与分层 / 项目与工程」三类组织，每个词条都带具体例子与本项目用法。
 
 另附一份配套图示：[跨境电商 ERP 内外数据流向图](glossary/data-flow-map.md)，
